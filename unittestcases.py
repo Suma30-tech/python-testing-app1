@@ -1,6 +1,6 @@
 import unittest
 from multiply import multiplication
-class MultiplyTestCase(unittest,TestCase):
+class MultiplyTestCase(unittest.TestCase):
 
   def test_1(self):
     result = multiplication(3, 4)

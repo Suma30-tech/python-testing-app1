@@ -9,7 +9,7 @@ class MultiplyTestCase(unittest,TestCase):
     result = multiplication(3,-4)
     self.assertEqual(result, -12)
    def  test_3(self):
-    result = multiplication(-3,- 4)
-    self.assertEqual(result, 12)
-  if__name__ =='__main__':
-     unittest.main()
+     result = multiplication(-3,- 4)
+     self.assertEqual(result, 12)
+    if__name__ =='__main__':
+      unittest.main()

@@ -5,5 +5,5 @@ class MultiplyTestCase(unittest,TestCase):
   def test_1(self):
     result = multiplication(3, 4)
     self.assertEqual(result, 12)
-   if __name__ == '__main__' :
-     unittest.main()
+  if __name__ == '__main__' :
+   unittest.main()
